@@ -378,16 +378,21 @@ border-radius: 50%;
         border: 2px solid rgba(0, 0, 0, 0.1);
    
 transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
+align-items: center;
 }
+
+
 
 .krest{
     
     width: 11px;
     height: 11px;
     align-items: center;
-
 }
 
+.closer:hover{
+    fill: #2196F3;
+}
 .form {
     display: block;
    
@@ -458,7 +463,16 @@ textarea:focus {
     color: rgba(117, 117, 117, 0.5);
 
 }
+::placeholder{
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
 
+    color: rgba(117, 117, 117, 0.5);
+}
 .modal-form label {
     margin-bottom: 4px;
 }
